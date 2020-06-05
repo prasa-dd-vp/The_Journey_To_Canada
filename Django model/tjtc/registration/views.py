@@ -1,7 +1,6 @@
 from django.http import JsonResponse
 from django.shortcuts import render
 from registration.models import User
-import json
 
 # Create your views here.
 def show_page(request):
